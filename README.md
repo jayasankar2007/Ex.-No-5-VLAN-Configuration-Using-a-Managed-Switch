@@ -1,4 +1,4 @@
-## Ex. No: 5  VLAN Configuration Using a Managed Switch
+<img width="1918" height="1140" alt="Screenshot 2026-10-28 223029" src="https://github.com/user-attachments/assets/127f8d1a-3327-4a2c-b2a5-03784da3486d" />## Ex. No: 5  VLAN Configuration Using a Managed Switch
 Date:
 ________________________________________
 # Objective
@@ -15,7 +15,8 @@ Description:<br>
 •	PC0 and PC1 are assigned to VLAN 10.<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1918" height="1133" alt="Screenshot 2026-10-28 222530" src="https://github.com/user-attachments/assets/880b57dd-6f87-4617-96e0-ee02806c3bdc" />
+<br>
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port<br>
@@ -61,9 +62,19 @@ Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on switch<br>
+<img width="1918" height="1133" alt="Screenshot 2026-10-28 210309" src="https://github.com/user-attachments/assets/c907ed04-b8f7-439e-870d-af4cb2f8a349" />
+
+
 •	PC IP settings<br>
+<img width="1918" height="1142" alt="Screenshot 2026-10-28 223013" src="https://github.com/user-attachments/assets/150d4216-15e9-482f-a13a-cac0b3cd0ffd" />
+<img width="1918" height="1140" alt="Screenshot 2026-10-28 223029" src="https://github.com/user-attachments/assets/b44ca65b-8649-44e9-a881-8af978676ceb" />
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1917" height="1137" alt="Screenshot 2026-10-28 210137" src="https://github.com/user-attachments/assets/c8d34483-dcc6-43d6-8668-52947dd6fb32" />
+
 •	Failed ping between PCs in different VLANs<br>
+<img width="1918" height="1133" alt="Screenshot 2026-10-28 182451" src="https://github.com/user-attachments/assets/c608c114-8833-4db5-a750-cf282ebf12f0" />
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
